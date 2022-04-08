@@ -1,0 +1,267 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: Myanmar Text;
+
+}
+.container{
+	width: 1100px;
+	margin: auto;
+}
+.header{
+	background-color: #333333;
+	height:120px ;
+}
+.header p{
+	color: #eeeeee;
+	font-size: 60px;
+	padding-left: 60px;
+	padding-top: 20px;
+	font-family: Myanmar Text;
+}
+.header .hleft{
+	width: 540px;
+	display: inline-block;
+}
+.header .hright{
+	width: 540px;
+	display: inline-block;
+}
+.header .hright ul{
+list-style-type: none;
+}
+.header .hright ul li{
+	width: 100px;
+	display: inline-block;
+}
+.header .hright ul li a{
+color: #eeeeee;
+}
+.header .hright ul li a{
+	text-decoration: none;
+}
+.header .hright ul li .hactive{
+	color: #0f94c9;
+}
+.title .t2{
+	width: 1100px;
+	border: 2px solid white;
+	border-bottom: 2px dotted #cccc;
+}
+.title  p{
+ font-size: 60px;
+ font-family: Myanmar Text;
+ color: #333333;
+ padding-left: 30px;
+}
+.title  p a{
+	font-size: 60px;
+ font-family: Myanmar Text;
+ color: #00bff3;
+ text-decoration: none;
+}
+.title .t2 p{
+ font-size: 50px;
+ font-family: Myanmar Text;
+ color: #bbbbbb;
+}
+.content{
+	font-size: 30px;
+	font-family: Myanmar Text;
+	color: #555555;
+	border-bottom:  2px dotted #cccc;
+	padding-left: 30px;
+}
+.footer{
+	width: 1100px;
+	height: ;
+	border: 1px solid white;
+}
+.web{
+width: 300px;
+height: ;
+border: 2px solid #00aeef;
+background-color: #00aeef;
+margin: 30px;
+float: left;
+box-shadow: 3px 3px 10px blue;
+}
+.w1{
+	font-size: 40px;
+	color: #ffffff;
+	border-bottom: 2px dotted #ffffff;
+	padding-left: 40px;
+}
+.w2{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 15px;
+}
+.w2 a{
+	width: 80px;
+	height: 40px;
+	box-shadow: 2px 2px 5px #15607c inset;
+    padding-left: 20px;
+    background-color: #0076a3;
+    margin-left: 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.mar{
+width: 300px;
+height: ;
+border: 2px solid #00aeef;
+background-color: #00aeef;
+margin: 30px;
+float: right;
+box-shadow: 3px 3px 10px blue;
+}
+.m1{
+	font-size: 40px;
+	color: #ffffff;
+	border-bottom: 2px dotted #ffffff;
+	padding-left: 55px;
+}
+.m2{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 15px;
+}
+.m2 a{
+	width: 80px;
+	height: 20px;
+	box-shadow: 2px 2px 5px #15607c inset;
+    padding-left: 20px;
+    background-color: #0076a3;
+    margin-left: 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.op{
+width: 300px;
+height: ;
+border: 2px solid #00aeef;
+background-color: #00aeef;
+margin: 30px;
+float: right;
+box-shadow: 3px 3px 10px blue;
+}
+.o1{
+	font-size: 40px;
+	color: #ffffff;
+	border-bottom: 2px dotted #ffff;
+	padding-left: 50px;
+}
+.o2{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 15px;
+}
+.o2 a{
+	width: 80px;
+	height: 20px;
+	box-shadow: 2px 2px 5px #15607c inset;
+    padding-left: 20px;
+    background-color: #0076a3;
+    margin-left: 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.e1 .e11{
+	font-size: 24px;
+	color: #747474;
+	padding-left: 20px;
+}
+.zzz{
+	padding-left: 20px;
+}
+.mmm{
+	width: 80px;
+	height: 80px;
+	border: 1 px solid grey;
+	background-color: grey;
+	display: inline-block;
+
+}
+.nnn{
+	font-size: 14px;
+	display: inline-block;
+}
+
+.ccc{
+	padding-left: 20px;
+}
+.vvv{
+	width: 80px;
+	height: 80px;
+	border: 1 px solid grey;
+	background-color: grey;
+	display: inline-block;
+}
+.aaa{
+	font-size: 14px;
+	display: inline-block;
+}
+.sss{
+	padding-left: 20px;
+}
+.ddd{
+	width: 80px;
+	height: 80px;
+	border: 1 px solid grey;
+	background-color: grey;
+	display: inline-block;
+}
+.fff{
+	font-size: 14px;
+	display: inline-block;
+}
+.end a{
+	text-decoration: none;
+}
+.qqq{
+	font-size: 24px;
+	padding-left: 10px;
+	color: #555555;
+}
+.rrr{
+	color: #888888;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.ppp{
+	font-size: 14px;
+	color: #555555;
+	padding-left: 10px;
+}
+.ppp a{
+	display: inline-block;
+}
+.e1{
+float: left;
+margin-left: 120px;
+}
+.e2{
+float: right;
+margin-right: 120px;
+}
+#sozlamalar{
+	width: 1100px;
+	height: 100px;
+	margin: 0 auto;
+	border: 2px solid black;
+	display: none;
+}
+#rasm{
+	width: 545px;
+	height: 100px;
+	float: left;
+}
+#text{
+	width: 545px;
+	height: 100px;
+	float: right;	
+}
+#sozla{
+	margin-left: 120px;
+}

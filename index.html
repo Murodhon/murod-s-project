@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+</head>
+<body>
+	<div id="sozlamalar">
+		<div id="rasm">
+			<h1>rasmni ozgartirish</h1>
+			<button id="width">width</button>
+			<button id="height">height</button>
+		</div>
+		<div id="text">
+			<h1>text</h1>
+			<button id="font">font-size</button>
+			<button id="color">color</button>
+			<button id="backcolor">background-color</button>
+		</div>
+	</div>
+	<button id="sozla">Настройки</button>
+<div class="container">
+<div class="header">
+	<div class="hleft">
+		<p>Design Studios</p>
+	</div>
+	<div class="hright">
+		<ul>
+			<li><a href="#" class="hactive">Home</a> </li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+<div class="title"> <p> <strong>Clean <a href="#">&</a> Professional Web Design </strong></p> 
+	<div class="t2"> <p>Providing High Quality Web Solutions</p></div>
+</div>
+<div class="content">We provide <strong>first class</strong> web solutions for organizations and small <br>
+businesses looking to make a <strong>big impact</strong> online. Our services include web <br>
+ design, online marketing campaigns, and search engine optimization.</div>
+<div class="footer">
+		<div class="web"> <div class="w1">Web Design</div>
+		<div class="w2">We provide web design solutions of the very highest order. We’ll work with you from the start to understand your exact requirements and will  continuosly work with you to ensure that you’re happy with the final site that you purchase. <br>
+        <a href="https://t.me/itmarket_uz">GET MORE DETAILS>></a>
+		</div>
+		</div>
+		<div class="mar">
+			<div class="m1">Marketing</div>
+			<div class="m2">We can help you promote your business in both the online and offline worlds. We specialize in a range of fields from viral marketing campaigns to managing paid advertising accounts for you. Your brand will be in safe hands with us.  
+          <a href="https://t.me/itmarket_uz">VIEW CASE STUDIOS>></a>  
+			</div>
+		</div>
+        <div class="op">
+        	<div class="o1">Optimision</div>
+        	<div class="o2">Want to drive more traffic to your site? You’ve come the right place! We can increase traffic to your site in an organic and effective manner that will ensure more people are aware of your business and the products/services you. <br>
+        	<a href="https://t.me/itmarket_uz">LEARN MORE>></a> 
+        	</div>
+        </div>
+	</div>
+</div>
+<div class="end">
+<div class="e1"><div class="e11">Client Testimonials</div>
+<div class="zzz"><div class="mmm"></div>
+<div class="nnn">“Design studios created a beautiful website and were  a pleasure <br>	
+ to work with during the whole process...” <br>
+Sarah Johnson <br>
+<a href="#">Web Design </a></div></div>
+<div class="ccc"><div class="vvv"></div>
+<div class="aaa">“I only have good things to say about Design Studios - 	I highly <br>
+	recommend them for promotional work...” <br>
+Kate Johnson <br>
+<a href="#">Web Design</a></div></div>
+<div class="sss"><div class="ddd"></div>
+<div class="fff"> “Design Studios have increased traffic to my site  by over <br>200% 
+	in just a few months - great work guys!” <br>
+Dave Johnson <br>
+<a href="#">Web Design</a></div></div>
+</div>
+</div>
+<div class="e2">
+	<div class="qqq">Featured Project</div>
+	<div class="rrr">Yoshi Online Marketing Campaign</div>
+	<div class="png"><img src="photo.png"></div>
+	<div class="ppp">This project involved organizing an online <br> marketing campaign 			
+		to help promote the Yoshi brand. The result of this campaign <br> resulted  in a 200% increase in Yoshi’s sales over a six month period of time. <br>
+		<a href="#">CLICK HERE FOR MORE DETAILS</a></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#sozla").click(function(){
+		$("#sozlamalar").css('display','block')
+	})
+	$("#width").click(function(){
+		$('img').css('width',prompt())
+	})
+	let a = document.getElementsByTagName('div')
+	b = a.innerHTML
+	$("#height").click(function(){
+		$('img').css('height',prompt())
+	})
+	$("#font").click(function(){
+		$('b').css('font-size',prompt())
+	})
+	$("#color").click(function(){
+		$('b').css('text-decoration-color',prompt())
+	})
+	$("#backcolor").click(function(){
+		$('b').css('backcolor',prompt())
+	})
+})
+</script>	
+</body>
+</html>

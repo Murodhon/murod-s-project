@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="qizil">qizil</h1>
+	<h1 id="yashil">yashil</h1>
+	<div></div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p id="tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<br>
+	<br>
+	<button id="ok">Size</button>
+	<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#qizil").click(function(){
+		$("div").css("background-color","red")
+	})
+	$("#yashil").click(function(){
+		$("div").css("background-color","green")
+	})
+	$("#ok").click(function(){
+		let a = prompt()
+		$("#tekst").css('font-size',a + 'px')
+	})
+})  
+</script>
+</body>
+</html>

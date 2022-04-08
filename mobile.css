@@ -1,0 +1,75 @@
+@media screen and (min-width: 1px) and (max-width: 800px){
+    .container{
+           width: 100%;
+    }
+    .header{
+        height: 300px;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .header .hleft{
+        width: 270px;
+        display: block;
+    }
+    .header .hleft p{
+        font-size: 30px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .header .hright{
+        width: 270px;
+        display: block;
+    }
+    .hright ul li{
+        width: 15px;
+        padding-left: 30px;
+        padding-left: 10px;
+    }
+    .hright ul li a{
+        font-size: 50%;
+    }
+    .title .t2{
+        width: 550px;
+    }
+    .title p{
+        font-size: 50px;
+        padding-left: 15px;
+    }
+    .title p a{
+        font-size: 50px;
+    }
+    .t2 p{
+        font-size: 30px;
+    }
+    .content{
+    font-size: 20px;
+    padding-left: 15px;
+    }
+    .footer{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    align-content: space-between;
+    }
+    .web{
+    width: 300px;
+    margin: 30px; 
+    }
+    .mar{
+        width: 300px;
+        margin: 30px;
+    }
+    .op{
+        width: 300px;
+        margin: 30px;
+    }
+    .e1{
+        margin-left: 20px;
+    }
+    .e2{
+        margin-left: 20px
+    }
+}
